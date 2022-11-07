@@ -1,2 +1,2 @@
-# transferlearning_papsmear
-This repository is to save a simple deep learning codes for cell classification on cropped pap Smear images
+# Transfer learning approach for the cell classification on pap smear images
+I aim to document some simple codes for the data preprocessing and transfer learning approach for pap smear classification.
