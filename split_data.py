@@ -1,9 +1,3 @@
-'''
-
-This script creates the 
-
-'''
-
 import os
 import argparse
 import pandas as pd
