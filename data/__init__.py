@@ -1,1 +1,1 @@
-from dataset import PapSmearDataset
+from .dataset import PapSmearDataset
