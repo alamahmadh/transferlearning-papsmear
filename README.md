@@ -7,3 +7,13 @@ We have created a csv file that store metadata information about the images (nam
 `python samples/split_data.py --file <csv filename> --train <percentage of train set> --val <percentage of val set>` 
 
 Default usage (70% train, 20% val, 10% test): `python samples/split_data.py -f papsmear_metadata_snippet.csv` 
+
+## Start training a model
+The configuration file located in `config/config.py` can be changed accordingly. For example, in that file we employed a pretrained `resnet18` model with `num_epochs=4` and so on. 
+
+Default Usage: `python train.py`
+
+The best model will be saved in `models/checkpoints`.
+
+## Inference stage
+Upcoming...
