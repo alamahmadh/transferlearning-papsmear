@@ -18,6 +18,8 @@ from models import *
 
 def params_to_update(model_ft, feature_extract):
     '''
+    Collect parameters to be updated (unfrozen)
+    
     Feature extracting is to create an optimizer that only updates the desired parameters.
     This only works if the layer(s) is set to have requires_grad=True
 
