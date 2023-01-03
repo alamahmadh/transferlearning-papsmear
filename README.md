@@ -15,7 +15,7 @@ Default Usage: `python train.py`
 
 The best model will be saved in `models/checkpoints`. This pipeline of the classification task is far from optimal (the evaluation metric is still poor) since this approach simply unfreeze the last linear layer (the classifier) and it is strongly recommended for the whole model to be fine-tuned instead. I will work further on different transfer learning strategies to optimize the classification task (not only the layer freezing or whatever but also using more recent and advanced network architectures). In addition, I need to elaborate on the more proper evaluation metrics to asses the models.
 
-This work is still in progress (I always cringed at myself when I saw this piece of amateurish work lol but yeah whatever). Hopefully I would be able to improve this in near future (of course, this is for my own documentation so that I can recycle and improve this template of DL pipeline for another future projects)
+This work is still in progress. Hopefully I would be able to improve this in near future (of course, this is for my own documentation so that I can recycle and improve this template of DL pipeline for another future projects)
 
 ## Inference stage
 Upcoming...
